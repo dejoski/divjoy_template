@@ -6,10 +6,14 @@ import "firebase/auth";
 if (!firebase.apps.length) {
   // Replace with your own Firebase credentials
   firebase.initializeApp({
-    apiKey: "AIzaSyBkkFF0XhNZeWuDmOfEhsgdfX1VBG7WTas",
-    authDomain: "divjoy-demo.firebaseapp.com",
-    projectId: "divjoy-demo",
-    appID: "divjoy-demo"
+    apiKey: "AIzaSyDrFQp8t-EMBpmARFSliJIEyCPXon50-2M",
+    authDomain: "simplemagic-dev.firebaseapp.com",
+    databaseURL: "https://simplemagic-dev.firebaseio.com",
+    projectId: "simplemagic-dev",
+    storageBucket: "simplemagic-dev.appspot.com",
+    messagingSenderId: "981005494007",
+    appId: "1:981005494007:web:9dc84c7b1fe874de23d5f2",
+    measurementId: "G-T52GJC41EF",
   });
 }
 
